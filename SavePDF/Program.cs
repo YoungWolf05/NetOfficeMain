@@ -1,7 +1,4 @@
-﻿SaveAsPDF("C:/Users/choonsng/Desktop/hello.docx");
-
-
-void SaveAsPDF(string filepath)
+﻿void SaveAsPDF(string filepath)
 {
     if (!File.Exists(filepath.ToString()))
     {
